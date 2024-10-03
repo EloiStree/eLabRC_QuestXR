@@ -1,0 +1,125 @@
+{
+    "name": "Quest3Input",
+    "maps": [
+        {
+            "name": "Q3Input",
+            "id": "b0e4b89d-cf0e-4abb-b9c9-71f935763107",
+            "actions": [
+                {
+                    "name": "JoystickLeft",
+                    "type": "Value",
+                    "id": "87c5802c-13ad-472c-ac16-c9eede2d74dd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "JoystickRight",
+                    "type": "Value",
+                    "id": "8e4142de-2579-4c40-9427-6b91875739e2",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Next",
+                    "type": "Button",
+                    "id": "3e33730b-65f2-4ea6-9775-c51081f4f53b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Previous",
+                    "type": "Button",
+                    "id": "b26cb7dc-50ce-4ec5-9ac0-4f0244bc9ca6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SwitchAR",
+                    "type": "Button",
+                    "id": "f714434d-c64d-42b9-9829-39c41a63c3cb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "35a9d550-cae0-4611-bea4-6cb0c372bdea",
+                    "path": "<OculusTouchController>{LeftHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "JoystickLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6d9fbcf4-465e-462b-8c7c-57a3956a2e8d",
+                    "path": "<OculusTouchController>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "JoystickRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "099c6d1f-e74a-4eed-90f8-6372f53bfa7c",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerLeft>{LeftHand}/secondarybutton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a3ccc76b-be32-4b44-8fe9-ea1ca2dbfd0d",
+                    "path": "<XRInputV1::Oculus::OculusTouchControllerLeft>{LeftHand}/primarybutton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Previous",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "364a9151-3c2e-48c0-94b8-a5ec3aed408e",
+                    "path": "<OculusTouchController>{RightHand}/{PrimaryAction}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchAR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7b82cb0d-2068-44bb-a5b2-0a4a77f71d62",
+                    "path": "<OculusTouchController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SwitchAR",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
